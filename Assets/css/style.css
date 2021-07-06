@@ -73,7 +73,7 @@ html{
     color: rgb(0, 0, 0);
 }
 .navbart .menu{
-    
+    padding-top: .5em;
 }
 .navbart .menu li{
     list-style: none;
@@ -108,7 +108,33 @@ html{
     max-height: 80vh;
     width:auto;
 }
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
 
+.flex-left {
+  width: 15%;
+
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.flex-mid {
+  width: 70%;
+
+  margin: 5px;
+  padding: 5px;
+
+}
+
+.flex-right {
+  width: 15%;
+  margin: 5px;
+  padding: 5px;
+
+}
 
 @media (max-width: 991px) {
     .max-width{
