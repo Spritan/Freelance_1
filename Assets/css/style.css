@@ -40,8 +40,8 @@ html{
 }
 
 
-/* navbar styling */
-.navbar{
+/* navbart styling */
+.navbart{
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -50,32 +50,32 @@ html{
     transition: all 0.3s ease;
     
 }
-.navbar.sticky{
+.navbart.sticky{
     padding: 15px 0;
     background: #3CA67F;
 }
-.navbar .max-width{
+.navbart .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
+.navbart .logo a{
     color: #fff;
     font-size: 35px;
     font-weight: 600;
 }
-.navbar .logo a span{
+.navbart .logo a span{
     color: #3CA67F;
     transition: all 0.3s ease;
 }
-.navbar.sticky .logo a span{
+.navbart.sticky .logo a span{
     color: rgb(0, 0, 0);
 }
-.navbar .menu li{
+.navbart .menu li{
     list-style: none;
     display: inline-block;
 }
-.navbar .menu li a{
+.navbart .menu li a{
     display: block;
     color: #fff;
     font-size: 18px;
@@ -83,11 +83,14 @@ html{
     margin-left: 25px;
     transition: color 0.3s ease;
 }
-.navbar .menu li a:hover{
+.navbart .menu li a:hover{
     color: #3CA67F;
 }
-.navbar.sticky .menu li a:hover{
+.navbart.sticky .menu li a:hover{
     color: #fff;
+}
+.navbart a{
+    text-decoration: none;
 }
 
 .menu-btn{
@@ -121,7 +124,7 @@ html{
     .menu-btn i.active:before{
         content: "\f00d";
     }
-    .navbar .menu{
+    .navbart .menu{
         position: fixed;
         height: 100vh;
         width: 100%;
@@ -132,13 +135,13 @@ html{
         padding-top: 80px;
         transition: all 0.3s ease;
     }
-    .navbar .menu.active{
+    .navbart .menu.active{
         left: 0;
     }
-    .navbar .menu li{
+    .navbart .menu li{
         display: block;
     }
-    .navbar .menu li a{
+    .navbart .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
