@@ -170,6 +170,31 @@ footer span a:hover{
 .social-list__link {
     padding: .5em;
 }
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.column{
+    width: calc(50% - 30px);
+    margin-bottom: 35px;
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .about .about-content .lf img{
+    max-height: 300px;
+    max-width: 300px;
+   }
+}
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
 @media (max-width: 991px) {
     .max-width{
@@ -221,6 +246,9 @@ footer span a:hover{
     .max-width{
         padding: 0 23px;
     }
+   #ig{
+       display: none;
+   }
 
 }
 
