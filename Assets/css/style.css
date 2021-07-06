@@ -72,6 +72,9 @@ html{
 .navbart.sticky .logo a span{
     color: rgb(0, 0, 0);
 }
+.navbart .menu{
+    
+}
 .navbart .menu li{
     list-style: none;
     display: inline-block;
@@ -99,6 +102,11 @@ html{
     font-size: 23px;
     cursor: pointer;
     
+}
+
+.carousel-inner img{
+    max-height: 80vh;
+    width:auto;
 }
 
 
