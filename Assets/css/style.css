@@ -181,8 +181,18 @@ html{
 }
 
 .container .logo a span img{
-    max-height: 6em;
-  
+    max-height: 6em;  
+}
+.courses{
+
+    width: 85%;
+    height: 80vh;
+    left: 1299px;
+    top: 2859px;
+    float: right;
+    background: rgba(93, 3, 170, 0.38);
+    border-radius: 0px 0px 0px 141px;
+
 }
 
 .student-talk{
