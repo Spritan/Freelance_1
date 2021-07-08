@@ -88,7 +88,7 @@ html{
     transition: color 0.3s ease;
 }
 .navbart .menu li a:hover{
-    color: #EC1C24;
+    color: #FFF100;
 }
 .navbart.sticky .menu li a:hover{
     color: white;
@@ -134,25 +134,25 @@ html{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #EC1C24;
+    color: #FFF100;
     font-weight: 800;
 }
 .home .home-content a{
     text-decoration: none;
     display: inline-block;
-    background: #EC1C24;
+    background: #FFF100;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #EC1C24;
+    border: 2px solid #FFF100;
     transition: all 0.3s ease;
     align-items: center;
 }
 .home .home-content a:hover{
-    color: #EC1C24;
+    color: #FFF100;
     background: none;
 }
 .home_img{
@@ -168,6 +168,7 @@ html{
 .home .home-content a{
         font-size: 23px;
         padding: 10px 30px;
+        color:black;
 }
 
 .carousel-inner img{
@@ -177,6 +178,21 @@ html{
 /*Why us*/
 .why-us{
     padding-top: 2em;
+}
+
+.container .logo a span img{
+    max-height: 6em;  
+}
+.courses{
+
+    width: 85%;
+    height: 80vh;
+    left: 1299px;
+    top: 2859px;
+    float: right;
+    background: rgba(93, 3, 170, 0.38);
+    border-radius: 0px 0px 0px 141px;
+
 }
 
 .student-talk{
@@ -198,7 +214,7 @@ footer span{
 }
 
 footer span a{
-    color: #EC1C24;
+    color: #FFF100;
     text-decoration: none;
 }
 footer span a:hover{
@@ -207,7 +223,7 @@ footer span a:hover{
 
 .footer a { 
     
-    color: #EC1C24;
+    color: #FFF100;
     text-decoration: none;
 }
 
