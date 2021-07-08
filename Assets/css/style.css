@@ -81,17 +81,17 @@ html{
 }
 .navbart .menu li a{
     display: block;
-    color: #fff;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
 }
 .navbart .menu li a:hover{
-    color: #3CA67F;
+    color: #EC1C24;
 }
 .navbart.sticky .menu li a:hover{
-    color: #fff;
+    color: white;
 }
 .navbart a{
     text-decoration: none;
@@ -102,6 +102,72 @@ html{
     font-size: 23px;
     cursor: pointer;
     
+}
+
+/* home sec styling */
+.home{
+    
+    display: flex;
+    background: url("/Assets/img/1.jpg") no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.home .home-content .text-1{
+    font-size: 49px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #EC1C24;
+    font-weight: 800;
+}
+.home .home-content a{
+    text-decoration: none;
+    display: inline-block;
+    background: #EC1C24;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid #EC1C24;
+    transition: all 0.3s ease;
+    align-items: center;
+}
+.home .home-content a:hover{
+    color: #EC1C24;
+    background: none;
+}
+.home_img{
+    max-width: 35%;
+    padding: 10px;
+}
+.home .home-content .text-2{
+        font-size: 70px;
+}
+.home .home-content .text-3{
+        font-size: 35px;
+}
+.home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
 }
 
 .carousel-inner img{
@@ -132,7 +198,7 @@ footer span{
 }
 
 footer span a{
-    color: #3CA67F;
+    color: #EC1C24;
     text-decoration: none;
 }
 footer span a:hover{
@@ -141,7 +207,7 @@ footer span a:hover{
 
 .footer a { 
     
-    color: #3CA67F;
+    color: #EC1C24;
     text-decoration: none;
 }
 
@@ -254,7 +320,34 @@ footer span a:hover{
    }
 
 }
-
+@media (max-width: 690px) {
+    .home{
+        padding-left: 0;
+    }
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+}
+@media (max-width: 500px) {
+    .home{
+        padding-left: 0;
+    }
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+}
 
 /* Lightbox */
 
