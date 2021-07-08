@@ -180,10 +180,9 @@ html{
     padding-top: 2em;
 }
 
-.courses .logo a span img{
+.container .logo a span img{
     max-height: 6em;
-    float: left;
-    
+  
 }
 
 .student-talk{
