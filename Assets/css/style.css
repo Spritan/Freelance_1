@@ -473,39 +473,39 @@ footer span a:hover{
     position:absolute;
   }
 
-.row {
+.row1 {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
+  .row1,
+  .row1 > .column1 {
     padding: 8px;
   }
   
   /* Create four equal columns that floats next to each other */
-  .column {
+  .column1 {
     float: left;
     width: 25%;
   }
-   .row {
+   .row1 {
     margin: 8px -16px;
   }
   
   /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
+  .row1,
+  .row1 > .column1 {
     padding: 8px;
   }
   
   /* Create four equal columns that floats next to each other */
-  .column {
+  .column1 {
     float: left;
     width: 25%;
   }
   
   /* Clear floats after rows */
-  .row:after {
+  .row1:after {
     content: "";
     display: table;
     clear: both;
