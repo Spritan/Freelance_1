@@ -107,7 +107,7 @@ html{
 /* home sec styling */
 .home{
     
-    display: flex;
+    
     background: url("/Assets/img/1.jpg") no-repeat center;
     height: 100vh;
     color: white;
@@ -118,7 +118,7 @@ html{
 }
 .home .max-width{
   width: 100%;
-  display: flex;
+  
   align-items: center;
 }
 .home .home-content .text-1{
