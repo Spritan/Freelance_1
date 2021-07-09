@@ -199,6 +199,13 @@ html{
     display:block;
 
 }
+.col .cards{
+    width: 18rem; 
+    background-color: #C6B8FF; 
+    border-radius: 1.5em;
+    padding-bottom: 1em; 
+    text-align: center;
+}
 /*STUDENT*/
 
 .review-card{
