@@ -186,7 +186,7 @@ html{
 /*COURSES*/
 .courses{
 
-    width: 95%;
+    width: 90%;
     height: 80vh;
     left: 1299px;
     top: 2859px;
@@ -199,13 +199,7 @@ html{
     display:block;
 
 }
-.col .cards{
-    width: 18rem; 
-    background-color: #C6B8FF; 
-    border-radius: 1.5em;
-    padding-bottom: 1em; 
-    text-align: center;
-}
+
 /*STUDENT*/
 
 .review-card{
