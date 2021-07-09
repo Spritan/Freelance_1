@@ -103,7 +103,11 @@ html{
     cursor: pointer;
     
 }
-
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 /* home sec styling */
 .home{
     
@@ -187,7 +191,7 @@ html{
 .courses{
 
     width: 90%;
-    height: 80vh;
+    height: 100%;
     left: 1299px;
     top: 2859px;
     float: right;
@@ -199,6 +203,57 @@ html{
     display:block;
 
 }
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.row1 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row1,
+  .row1 > .column1 {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 25%;
+  }
+   .row1 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row1,
+  .row1 > .column1 {
+    padding: 8px;
+  }
+  
+ 
+  /* Clear floats after rows */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    left: 122px;
+    top: 2105px;
+    background: #C6B8FF;
+    border-radius: 50px;
+    height: 100%
+  }
+  .card2 p{
+    text-align: left;
+  }
 
 /*STUDENT*/
 
@@ -209,7 +264,6 @@ html{
     margin-bottom: 29px;
     width: 570px;
     border-radius: 30px;
-
     display: flex;
     align-items: center;
 }
@@ -241,10 +295,10 @@ html{
 }
 
 .review-section{
-    margin-top: 100vh;
+    margin-top: 90%;
     background-color: #CADBFE;
     width: 95%;
-
+    height: 100%;
     border-top-right-radius: 141px;
 }
 
@@ -357,21 +411,24 @@ footer span a:hover{
     width: calc(50% - 30px);
     margin-bottom: 35px;
 }
-@media (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
+
+
+/* Lightbox */
+
+.map-container-section {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
   }
-  .about .about-content .lf img{
-    max-height: 300px;
-    max-width: 300px;
-   }
-}
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
+  .map-container-section iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
   }
+
 
 @media (max-width: 991px) {
     .max-width{
@@ -388,7 +445,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
-    
+    .max-width{
+        max-width: 930px;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -419,6 +478,18 @@ footer span a:hover{
         font-size: 25px;
     }
 }
+
+@media screen and (max-width: 900px) {
+    .column1 {
+      width: 50%;
+    }
+  }
+@media (max-width: 800px) {
+  .column1 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
 @media (max-width: 691) {
     .max-width{
         padding: 0 23px;
@@ -445,6 +516,19 @@ footer span a:hover{
         font-size: 20px;
     }
 }
+@media (max-width: 600px) {
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+}
+@media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+}
+
 @media (max-width: 500px) {
     .home{
         padding-left: 0;
@@ -456,70 +540,3 @@ footer span a:hover{
         font-size: 27px;
     }
 }
-
-/* Lightbox */
-
-.map-container-section {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
-  .map-container-section iframe {
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
-
-.row1 {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row1,
-  .row1 > .column1 {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column1 {
-    float: left;
-    width: 25%;
-  }
-   .row1 {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row1,
-  .row1 > .column1 {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column1 {
-    float: left;
-    width: 25%;
-  }
-  
-  /* Clear floats after rows */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    left: 122px;
-    top: 2105px;
-    background: #C6B8FF;
-    border-radius: 50px;
-
-  }
-  
-  
