@@ -103,7 +103,11 @@ html{
     cursor: pointer;
     
 }
-
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
 /* home sec styling */
 .home{
     
@@ -472,7 +476,11 @@ footer span a:hover{
     width:100%;
     position:absolute;
   }
-
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 .row1 {
     margin: 8px -16px;
   }
@@ -498,12 +506,7 @@ footer span a:hover{
     padding: 8px;
   }
   
-  /* Create four equal columns that floats next to each other */
-  .column1 {
-    float: left;
-    width: 25%;
-  }
-  
+ 
   /* Clear floats after rows */
   .row1:after {
     content: "";
@@ -519,7 +522,52 @@ footer span a:hover{
     top: 2105px;
     background: #C6B8FF;
     border-radius: 50px;
-
+    height: 557px;
   }
-  
-  
+  .card2 p{
+    text-align: left;
+  }
+
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    
+
+    .max-width{
+        max-width: 930px;
+    }
+
+} 
+@media (max-width: 690px) {
+
+    .max-width{
+        padding: 0 23px;
+    }
+
+}
+@media screen and (max-width: 900px) {
+    .column1 {
+      width: 50%;
+    }
+  }
+@media (max-width: 800px) {
+  .column1 {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .column1 {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+}
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+    }
+  }
