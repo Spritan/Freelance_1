@@ -195,9 +195,14 @@ html{
     border-radius: 0px 0px 0px 141px;
 
 }
+.courses_d{
+    display:block;
+
+}
 /*STUDENT*/
 
 .review-card{
+    
     background-color: #C6B8FF;
     margin-top: 0;
     margin-bottom: 29px;
@@ -235,6 +240,7 @@ html{
 }
 
 .review-section{
+    margin-top: 100vh;
     background-color: #CADBFE;
     width: 95%;
 
