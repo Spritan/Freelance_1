@@ -203,6 +203,57 @@ html{
     display:block;
 
 }
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.row1 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row1,
+  .row1 > .column1 {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 25%;
+  }
+   .row1 {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row1,
+  .row1 > .column1 {
+    padding: 8px;
+  }
+  
+ 
+  /* Clear floats after rows */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    left: 122px;
+    top: 2105px;
+    background: #C6B8FF;
+    border-radius: 50px;
+    height: 100%
+  }
+  .card2 p{
+    text-align: left;
+  }
 
 /*STUDENT*/
 
@@ -377,63 +428,13 @@ footer span a:hover{
     width:100%;
     position:absolute;
   }
-.row1 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-.row1 {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row1,
-  .row1 > .column1 {
-    padding: 8px;
-  }
-  
-  /* Create four equal columns that floats next to each other */
-  .column1 {
-    float: left;
-    width: 25%;
-  }
-   .row1 {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row1,
-  .row1 > .column1 {
-    padding: 8px;
-  }
-  
- 
-  /* Clear floats after rows */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    left: 122px;
-    top: 2105px;
-    background: #C6B8FF;
-    border-radius: 50px;
-    height: 557px;
-  }
-  .card2 p{
-    text-align: left;
-  }
+
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
-        .menu-btn{
+    .menu-btn{
         display: none;
         z-index: 999;
     }
@@ -444,7 +445,9 @@ footer span a:hover{
     }
 }
 @media (max-width: 947px){
-    
+    .max-width{
+        max-width: 930px;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -475,21 +478,7 @@ footer span a:hover{
         font-size: 25px;
     }
 }
-@media (max-width: 947px){
-    
 
-    .max-width{
-        max-width: 930px;
-    }
-
-} 
-@media (max-width: 690px) {
-
-    .max-width{
-        padding: 0 23px;
-    }
-
-}
 @media screen and (max-width: 900px) {
     .column1 {
       width: 50%;
@@ -534,25 +523,11 @@ footer span a:hover{
   }
 
 }
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .column1 {
       width: 100%;
     }
-  }
-@media (max-width: 600px) {
-  .column1 {
-    flex: 100%;
-    max-width: 100%;
-  }
-
 }
-  @media screen and (max-width: 600px) {
-    .column1 {
-      width: 100%;
-    }
-  }
-
-
 
 @media (max-width: 500px) {
     .home{
