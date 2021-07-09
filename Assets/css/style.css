@@ -67,8 +67,6 @@ html{
 .navbart .logo a span img{
     max-width: 3em;
 }
-
-
 .navbart.sticky .logo a span{
     color: rgb(0, 0, 0);
 }
@@ -96,21 +94,15 @@ html{
 .navbart a{
     text-decoration: none;
 }
-
 .menu-btn{
     color: #fff;
     font-size: 23px;
     cursor: pointer;
     
 }
-.max-width{
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
-}
+
 /* home sec styling */
 .home{
-    
     
     background: url("/Assets/img/1.jpg") no-repeat center;
     height: 100vh;
@@ -122,7 +114,6 @@ html{
 }
 .home .max-width{
   width: 100%;
-  
   align-items: center;
 }
 .home .home-content .text-1{
@@ -174,7 +165,6 @@ html{
         padding: 10px 30px;
         color:black;
 }
-
 .carousel-inner img{
     max-height: 100vh;
     width:auto;
@@ -189,19 +179,16 @@ html{
 }
 /*COURSES*/
 .courses{
-
-    width: 90%;
+    width: 80%;
     height: 100%;
     left: 1299px;
     top: 2859px;
     float: right;
     background: rgba(93, 3, 170, 0.38);
     border-radius: 0px 0px 0px 141px;
-
 }
 .courses_d{
     display:block;
-
 }
 .row1 {
   display: flex;
@@ -211,36 +198,23 @@ html{
 .row1 {
     margin: 8px -16px;
   }
-  
-  /* Add padding BETWEEN each column (if you want) */
   .row1,
   .row1 > .column1 {
     padding: 8px;
   }
-  
-  /* Create four equal columns that floats next to each other */
-  .column1 {
+.column1 {
     float: left;
     width: 25%;
   }
-   .row1 {
+.row1 {
     margin: 8px -16px;
   }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row1,
-  .row1 > .column1 {
-    padding: 8px;
-  }
-  
- 
-  /* Clear floats after rows */
-  .row1:after {
+.row1:after {
     content: "";
     display: table;
     clear: both;
   }
-  .card2 {
+.card2 {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
@@ -251,14 +225,25 @@ html{
     border-radius: 50px;
     height: 100%
   }
-  .card2 p{
+.card2 p{
     text-align: left;
   }
 
 /*STUDENT*/
-
+.review-section{
+    margin-top: 80%;
+    background-color: #CADBFE;
+    width: 95%;
+    height: 100%;
+    border-top-right-radius: 141px;
+}
+.review-main{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    height: 80vh;
+}
 .review-card{
-    
     background-color: #C6B8FF;
     margin-top: 0;
     margin-bottom: 29px;
@@ -267,7 +252,6 @@ html{
     display: flex;
     align-items: center;
 }
-
 .review-image{
     width: 66px;
     aspect-ratio: 1;
@@ -293,28 +277,11 @@ html{
     float: right;
     font-weight: 600;
 }
-
-.review-section{
-    margin-top: 90%;
-    background-color: #CADBFE;
-    width: 95%;
-    height: 100%;
-    border-top-right-radius: 141px;
-}
-
-.review-main{
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: 100px;
-    height: 80vh;
-}
-
-
 .second-card{
     float: right;
 }
 
-h1{
+.review h1{
     font-size: 60px;
     font-weight: 600;
     text-transform: uppercase;
@@ -325,7 +292,7 @@ h1{
     position: relative;
 }
 
-h1::after{
+.review h1::after{
     content:'';
     position: absolute;
     width: 190px;
@@ -428,9 +395,55 @@ footer span a:hover{
     width:100%;
     position:absolute;
   }
-
-
+@media(max-width: 1593px){
+    .review-section{
+        margin-top: 90%;
+    }
+}
+@media(max-width: 1431px){
+    .review-section{
+    margin-top: 100%;
+    }
+}
+@media(max-width:1336px){
+    .review-section{
+    margin-top: 110%;
+    }
+}
+@media(max-width:1258px){
+    .review-section{
+    margin-top: 120%;
+    }
+}
+@media(max-width:1168px){
+    .review-section{
+    margin-top: 130%;
+    }
+}
+@media(max-width:1168px){
+    .review-section{
+    margin-top: 150%;
+    }
+}
+@media(max-width:1041px){
+    .review-section{
+    margin-top: 160%;
+    }
+}
+@media(max-width:1015px){
+    .review-section{
+    margin-top: 170%;
+    }
+}
+@media(max-width:997px){
+    .review-section{
+    margin-top: 180%;
+    }
+}
 @media (max-width: 991px) {
+    .review-section{
+    margin-top: 190%;
+    }
     .max-width{
         padding: 0 50px;
     }
@@ -480,19 +493,43 @@ footer span a:hover{
 }
 
 @media screen and (max-width: 900px) {
+    .review-section{
+    margin-top: 210%;
+    }
     .column1 {
       width: 50%;
     }
   }
+@media(max-width:822px){
+    .review-section{
+    margin-top: 220%;
+    }
+}
 @media (max-width: 800px) {
+    .review-section{
+    margin-top: 230%;
+    }
   .column1 {
     flex: 50%;
     max-width: 50%;
   }
 }
-@media (max-width: 691) {
+@media(max-width: 767px){
+    .review-section{
+    margin-top: 260%;
+    }
+}
+@media(max-width: 739px){
+    .review-section{
+    margin-top: 270%;
+    }
+}
+@media (max-width: 691px) {
     .max-width{
         padding: 0 23px;
+    }
+    .review-section{
+    margin-top: 270%;
     }
    #ig{
        display: none;
@@ -503,6 +540,7 @@ footer span a:hover{
     .home{
         padding-left: 0;
     }
+
     .max-width{
         padding: 0 23px;
     }
@@ -516,11 +554,19 @@ footer span a:hover{
         font-size: 20px;
     }
 }
+@media(max-width: 640px){
+    .review-section{
+    margin-top: 400%;
+    }
+}
 @media (max-width: 600px) {
   .column1 {
     flex: 100%;
     max-width: 100%;
   }
+    .review-section{
+    margin-top: 570%;
+    }
 
 }
 @media screen and (max-width: 600px) {
@@ -528,15 +574,52 @@ footer span a:hover{
       width: 100%;
     }
 }
-
+@media(max-width: 540px){
+    .review-section{
+    margin-top: 610%;
+    }
+}
 @media (max-width: 500px) {
     .home{
         padding-left: 0;
+    }
+    .review-section{
+    margin-top: 675%;
     }
     .home .home-content .text-2{
         font-size: 50px;
     }
     .home .home-content .text-3{
         font-size: 27px;
+    }
+}
+@media(max-width: 414px){
+    .review-section{
+    margin-top: 800%;
+    }
+}
+@media(max-width: 384px){
+    .review-section{
+    margin-top: 850%;
+    }
+}
+@media(max-width: 360px){
+    .review-section{
+    margin-top: 950%;
+    }
+}
+@media(max-width: 320px){
+    .review-section{
+    margin-top: 1070%;
+    }
+}
+@media(max-width: 280px){
+    .review-section{
+    margin-top: 1340%;
+    }
+}
+@media(max-width: 240px){
+    .review-section{
+    margin-top: 1950%;
     }
 }
