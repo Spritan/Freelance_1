@@ -103,7 +103,6 @@ html{
 
 /* home sec styling */
 .home{
-    
     background: url("/Assets/img/1.jpg") no-repeat center;
     height: 100vh;
     color: white;
@@ -115,7 +114,11 @@ html{
 .home .max-width{
   width: 100%;
   align-items: center;
+
 }
+.home .about-content{
+    padding-top: 20%;
+    }
 .home .home-content .text-1{
     font-size: 49px;
 }
@@ -165,10 +168,7 @@ html{
         padding: 10px 30px;
         color:black;
 }
-.carousel-inner img{
-    max-height: 100vh;
-    width:auto;
-}
+
 /*Why us*/
 .why-us{
     padding-top: 2em;
