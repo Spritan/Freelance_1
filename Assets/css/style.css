@@ -179,7 +179,7 @@ html{
 }
 /*COURSES*/
 .courses{
-    width: 80%;
+    width: 90%;
     height: 100%;
     left: 1299px;
     top: 2859px;
@@ -395,6 +395,11 @@ footer span a:hover{
     width:100%;
     position:absolute;
   }
+@media(max-width: 1920px){
+    .review-section{
+        height:50em;
+    }
+}
 @media(max-width: 1593px){
     .review-section{
         margin-top: 90%;
@@ -444,6 +449,9 @@ footer span a:hover{
     .review-section{
     margin-top: 190%;
     }
+    .second-card{
+    float: left;
+}
     .max-width{
         padding: 0 50px;
     }
@@ -514,6 +522,17 @@ footer span a:hover{
     max-width: 50%;
   }
 }
+@media(max-width: 796px){
+    .review-card{
+    margin-bottom: 29px;
+    max-width: 110%;
+    border-radius: 30px;
+    align-items: left;
+}
+    .second-card{
+    float: left;
+}
+}
 @media(max-width: 767px){
     .review-section{
     margin-top: 260%;
@@ -574,14 +593,28 @@ footer span a:hover{
       width: 100%;
     }
 }
+@media(max-width: 575px){
+    .review-section{
+    margin-top: 590%;
+    }
+}
+@media(max-width: 555px){
+    .review-section{
+    margin-top: 600%;
+    }
+}
 @media(max-width: 540px){
     .review-section{
     margin-top: 610%;
+    width: 100%;
     }
 }
 @media (max-width: 500px) {
     .home{
         padding-left: 0;
+    }
+    .courses{
+        width:100%;
     }
     .review-section{
     margin-top: 675%;
@@ -593,24 +626,45 @@ footer span a:hover{
         font-size: 27px;
     }
 }
+@media(max-width: 481px){
+    .review-section{
+    margin-top: 700%;
+    height: 55em;
+    }
+}
+@media(max-width: 464px){
+    .review-section{
+    margin-top: 720%;
+    }
+}
+@media(max-width: 450px){
+    .review-section{
+    margin-top: 740%;
+    }
+}
 @media(max-width: 414px){
     .review-section{
     margin-top: 800%;
+    height: 67em;
     }
 }
 @media(max-width: 384px){
     .review-section{
     margin-top: 850%;
+    height: 70em;
     }
 }
 @media(max-width: 360px){
     .review-section{
     margin-top: 950%;
+    height: 77em;
     }
+    
 }
 @media(max-width: 320px){
     .review-section{
     margin-top: 1070%;
+        height: 87em;
     }
 }
 @media(max-width: 280px){
