@@ -38,7 +38,53 @@ html{
     padding: 0 80px;
     margin: auto;
 }
-
+.about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-content .lf{
+    width: 40%;
+    text-align: center;
+}
+.about-content .lf img{
+    max-height: 300px;
+    max-width: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    ;
+}
+.about-content .rt{
+    width: 60%;
+}
+.about-content .rt .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about-content .rt .text span{
+    color: crimson;
+}
+.about-content .rt p{
+    text-align: justify;
+}
+.about-content .rt a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about-content .rt a:hover{
+    color: crimson;
+    background: none;
+}
 
 /* navbart styling */
 .navbart{
@@ -368,12 +414,7 @@ footer span a:hover{
 .social-list__link {
     padding: .5em;
 }
-.about-content{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .column{
     width: calc(50% - 30px);
     margin-bottom: 35px;
@@ -428,6 +469,18 @@ footer span a:hover{
 @media(max-width:1168px){
     .review-section{
     margin-top: 150%;
+    }
+}
+@media (max-width: 1104px) {
+    .about-content .left img{
+        max-height: 350px;
+        max-width: 350px;
+    }
+}
+@media (max-width: 1024px) {
+    .about-content .left img{
+        max-height: 300px;
+        max-width: 300px;
     }
 }
 @media(max-width:1041px){
@@ -497,6 +550,17 @@ footer span a:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+    .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about-content .right{
+        flex: 100%;
     }
 }
 
@@ -572,6 +636,12 @@ footer span a:hover{
     .home .home-content a{
         font-size: 20px;
     }
+    .about-content .lf img{
+    max-height: 300px;
+    max-width: 300px;
+   }
+   
+
 }
 @media(max-width: 640px){
     .review-section{
@@ -586,6 +656,10 @@ footer span a:hover{
     .review-section{
     margin-top: 570%;
     }
+    .about-content .lf img{
+    max-height: 300px;
+    max-width: 300px;
+   }
 
 }
 @media screen and (max-width: 600px) {
@@ -612,6 +686,13 @@ footer span a:hover{
 @media (max-width: 500px) {
     .home{
         padding-left: 0;
+    }
+    .about-content .lf img{
+    max-height: 300px;
+    max-width: 300px;
+   }
+    .about-content .right .text{
+        font-size: 19px;
     }
     .courses{
         width:100%;
@@ -648,6 +729,11 @@ footer span a:hover{
     height: 67em;
     }
 }
+@media (max-width: 375px) {
+    about .about-content .lf img{
+    max-height: 330px;
+    max-width: 330px;
+   }
 @media(max-width: 384px){
     .review-section{
     margin-top: 850%;
@@ -666,6 +752,13 @@ footer span a:hover{
     margin-top: 1070%;
         height: 87em;
     }
+}
+@media (max-width: 290px) {
+    .about .about-content .lf img{
+    max-height: 260px;
+    max-width: 260px;
+   }
+
 }
 @media(max-width: 280px){
     .review-section{
