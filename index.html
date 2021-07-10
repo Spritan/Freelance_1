@@ -58,46 +58,40 @@
                 CV</a>
             </div>
             <div color="black" class="column lf">
-              <div  class="card">
-                <div class="form-header blue accent-1">
-                  <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
-                </div>
-                <p class="dark-grey-text">We'll write rarely, but only the best content.</p>
-                <form id="resister"  action="https://formsubmit.co/c9b1ec4dcf2534e94483f5e1d6c54cfe" method="POST">
-                  <div class="md-form">
-                    
-                    <i class="fas fa-user prefix grey-text"></i><label for="form-name">Your name</label>
-                    <input type="text" name="name" id="form-name" class="form-control" required>
-                    
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-envelope prefix grey-text"></i><label for="form-email">Your email</label>
-                    <input type="text" name="email" id="form-email" class="form-control" required>
+              <div class="form">
+                <div class="resister">
+        <h2>
+            Resister here
+        </h2>
+        <form id="resister" action="https://formsubmit.co/c9b1ec4dcf2534e94483f5e1d6c54cfe" method="POST">
+        <label>Your Name</label>
+        <br>
+        <input id="name" type="text" name="name" placeholder="Enter your name" required>
+        <br>
+        <label>Your Email</label>
+        <br>
+        <input type="email" name="email" placeholder="Enter your Email" required required>
+        <br>
+        <label>Your Phone Number</label>
+        <br>
+        <input type="phoneno" name="phone No." placeholder="Enter your Phone Number" required required >
+        <br>
+        <label>Choose Your Interest</label>
+        <br>
+        <select id="interest" name="interest" placeholder="Cjoose your Interest" required >
+            <option value="Animation">Animation</option>
+            <option value=" vfx">VFX</option>
+            <option value="Gaming">Graphic Design</option>
+            <option value="webdis">Web Design & Development</option>
+            <option value="digimrk">Digital Marketing</option>
+            <option value="other">Others</option>
+        </select>
+        <br>
+        <button type="submit">Send</button>
+        </form>
         
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-tag prefix grey-text"></i><label for="form-Subject">Your Phone Number</label>
-                    <input type="text" name="phone No." id="form-Subject" class="form-control" required>
-        
-                  </div>
-                  <div class="md-form">
-                    <i class="fas fa-pencil-alt prefix grey-text"></i><label for="form-text">Choose Your Interest</label>
-                    <select id="interest" name="interest" placeholder="Cjoose your Interest" required >
-                      <option value="Animation">Animation</option>
-                      <option value=" vfx">VFX</option>
-                      <option value="Gaming">Graphic Design</option>
-                      <option value="webdis">Web Design & Development</option>
-                      <option value="digimrk">Digital Marketing</option>
-                      <option value="other">Others</option>
-                  </select>
-        
-                  </div>
-                  <div class="text-center">
-                    <button class="btn btn-light-blue">Submit</button>
-                
-                  </div>
-                </form>
-              </div>
+                </div> 
+            </div>
               </div>
           </div>
           </div>
