@@ -43,7 +43,7 @@
     </nav>
 
     <!-- home section start -->
-    <div class="home" id="home" >
+    <div class="home" id="home"  >
       <div class="max-width">
         <!--<img class="home_img" src="imgs/pp.jpg" alt="a picture of me smiling" class="intro__img">-->
         <div class="home-content">
@@ -57,31 +57,44 @@
                 href="https://www.canva.com/design/DAEifi7-V5M/tuYMDzjAVj2e4cSS8084nw/view?utm_content=DAEifi7-V5M&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink">My
                 CV</a>
             </div>
-            <div class="column lf">
-              <div class="card">
+            <div color="black" class="column lf">
+              <div  class="card">
                 <div class="form-header blue accent-1">
                   <h3 class="mt-2"><i class="fas fa-envelope"></i> Write to us:</h3>
                 </div>
                 <p class="dark-grey-text">We'll write rarely, but only the best content.</p>
-                <form id="resister" action="https://formsubmit.co/c9b1ec4dcf2534e94483f5e1d6c54cfe" method="POST">
+                <form id="resister"  action="https://formsubmit.co/c9b1ec4dcf2534e94483f5e1d6c54cfe" method="POST">
                   <div class="md-form">
+                    
                     <i class="fas fa-user prefix grey-text"></i><label for="form-name">Your name</label>
-                    <input type="text" id="form-name" class="form-control">
+                    <input type="text" name="name" id="form-name" class="form-control" required>
+                    
                   </div>
                   <div class="md-form">
                     <i class="fas fa-envelope prefix grey-text"></i><label for="form-email">Your email</label>
-                    <input type="text" id="form-email" class="form-control">
+                    <input type="text" name="email" id="form-email" class="form-control" required>
+        
                   </div>
                   <div class="md-form">
-                    <i class="fas fa-tag prefix grey-text"></i><label for="form-Subject">Subject</label>
-                    <input type="text" id="form-Subject" class="form-control">
+                    <i class="fas fa-tag prefix grey-text"></i><label for="form-Subject">Your Phone Number</label>
+                    <input type="text" name="phone No." id="form-Subject" class="form-control" required>
+        
                   </div>
                   <div class="md-form">
-                    <i class="fas fa-pencil-alt prefix grey-text"></i><label for="form-text">Send message</label>
-                    <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                    <i class="fas fa-pencil-alt prefix grey-text"></i><label for="form-text">Choose Your Interest</label>
+                    <select id="interest" name="interest" placeholder="Cjoose your Interest" required >
+                      <option value="Animation">Animation</option>
+                      <option value=" vfx">VFX</option>
+                      <option value="Gaming">Graphic Design</option>
+                      <option value="webdis">Web Design & Development</option>
+                      <option value="digimrk">Digital Marketing</option>
+                      <option value="other">Others</option>
+                  </select>
+        
                   </div>
                   <div class="text-center">
                     <button class="btn btn-light-blue">Submit</button>
+                
                   </div>
                 </form>
               </div>
@@ -305,29 +318,40 @@
           </div>
           <p class="dark-grey-text">We'll write rarely, but only the best content.</p>
           <!-- Body -->
-          <div class="md-form">
-            <i class="fas fa-user prefix grey-text"></i><label for="form-name">Your name</label>
-            <input type="text" id="form-name" class="form-control">
-            
-          </div>
-          <div class="md-form">
-            <i class="fas fa-envelope prefix grey-text"></i><label for="form-email">Your email</label>
-            <input type="text" id="form-email" class="form-control">
-
-          </div>
-          <div class="md-form">
-            <i class="fas fa-tag prefix grey-text"></i><label for="form-Subject">Subject</label>
-            <input type="text" id="form-Subject" class="form-control">
-
-          </div>
-          <div class="md-form">
-            <i class="fas fa-pencil-alt prefix grey-text"></i><label for="form-text">Send message</label>
-            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
-
-          </div>
-          <div class="text-center">
-            <button class="btn btn-light-blue">Submit</button>
-          </div>
+          <form id="resister" action="https://formsubmit.co/c9b1ec4dcf2534e94483f5e1d6c54cfe" method="POST">
+            <div class="md-form">
+              
+              <i class="fas fa-user prefix grey-text"></i><label for="form-name">Your name</label>
+              <input type="text" name="name" id="form-name" class="form-control" required>
+              
+            </div>
+            <div class="md-form">
+              <i class="fas fa-envelope prefix grey-text"></i><label for="form-email">Your email</label>
+              <input type="text" name="email" id="form-email" class="form-control" required>
+  
+            </div>
+            <div class="md-form">
+              <i class="fas fa-tag prefix grey-text"></i><label for="form-Subject">Your Phone Number</label>
+              <input type="text" name="phone No." id="form-Subject" class="form-control" required>
+  
+            </div>
+            <div class="md-form">
+              <i class="fas fa-pencil-alt prefix grey-text"></i><label for="form-text">Choose Your Interest</label>
+              <select id="interest" name="interest" placeholder="Cjoose your Interest" required >
+                <option value="Animation">Animation</option>
+                <option value=" vfx">VFX</option>
+                <option value="Gaming">Graphic Design</option>
+                <option value="webdis">Web Design & Development</option>
+                <option value="digimrk">Digital Marketing</option>
+                <option value="other">Others</option>
+            </select>
+  
+            </div>
+            <div class="text-center">
+              <button class="btn btn-light-blue">Submit</button>
+          
+            </div>
+          </form>
         </div>
       </div>
       <!-- Form with header -->
