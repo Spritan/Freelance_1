@@ -301,7 +301,17 @@ html{
     width: 33%;
     padding-left: 3em;
 }
+.about-content .lf3{
+    width: 50%;
+    text-align: left;
+    padding-left: 3em;
 
+}
+
+.about-content .rt3{
+    width: 50%;
+    padding-left: 3em;
+}
 
 /*COURSES*/
 .courses{
