@@ -158,6 +158,9 @@ html{
 .navbart2 a{
     text-decoration: none;
 }
+.header h1{
+    text-align: center;
+}
 
 /* home sec styling */
 .home{
