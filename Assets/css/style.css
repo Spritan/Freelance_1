@@ -39,6 +39,34 @@ html{
     margin: auto;
 }
 
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: #F69227;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
 /* navbart styling */
 .navbart{
     position: fixed;
@@ -100,7 +128,10 @@ html{
     
 }
 .header{
-    padding-top: 5em;
+    padding-top: 9em;
+    padding-bottom:5em;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .header .h1{
     text-align: center;
@@ -301,7 +332,17 @@ html{
     width: 33%;
     padding-left: 3em;
 }
+.about-content .lf3{
+    width: 50%;
+    text-align: left;
+    padding-left: 3em;
 
+}
+
+.about-content .rt3{
+    width: 50%;
+    padding-left: 3em;
+}
 
 /*COURSES*/
 .courses{
@@ -632,6 +673,28 @@ footer span a:hover{
         display: block;
     }
     .navbart .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .navbart2 .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbart2 .menu.active{
+        left: 0;
+    }
+    .navbart2 .menu li{
+        display: block;
+    }
+    .navbart2 .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
