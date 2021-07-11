@@ -284,6 +284,22 @@ html{
     background: none;
 }
 
+.about-content .lf2{
+    width: 33%;
+    text-align: left;
+    padding-left: 3em;
+
+}
+.about-content .mid{
+    width: 33%;
+    padding-left: 3em;
+}
+.about-content .rt2{
+    width: 33%;
+    padding-left: 3em;
+}
+
+
 /*COURSES*/
 .courses{
     width: 90%;
