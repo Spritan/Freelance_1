@@ -171,6 +171,7 @@ html{
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+
 }
 .home .max-width{
   width: 100%;
@@ -179,7 +180,6 @@ html{
 }
 .home .about-content{
     padding-top: 20%;
-    
     }
 .home .home-content .text-1{
     font-size: 49px;
@@ -516,6 +516,11 @@ footer span a:hover{
     width:100%;
     position:absolute;
   }
+@media(max-width: 1536px){
+    .home .about-content{
+    padding-top: 10%;
+    }
+}
 @media(max-width: 1920px){
     .review-section{
         height:50em;
