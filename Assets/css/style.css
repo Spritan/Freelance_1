@@ -670,6 +670,7 @@ footer span a:hover{
     flex: 50%;
     max-width: 50%;
   }
+  
 }
 @media(max-width: 796px){
     .review-card{
@@ -830,7 +831,9 @@ footer span a:hover{
     margin-top: 950%;
     height: 77em;
     }
-    
+    .home .about-content{
+        padding-top: 30%;
+        }
 }
 @media(max-width: 320px){
     .review-section{
