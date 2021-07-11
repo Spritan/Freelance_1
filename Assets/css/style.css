@@ -100,7 +100,9 @@ html{
     
 }
 .header{
-    padding-top: 5em;
+    padding-top: 9em;
+    padding-bottom:5em;
+    width: 80%;
 }
 .header .h1{
     text-align: center;
