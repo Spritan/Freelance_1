@@ -38,8 +38,10 @@
         }
     
         /* Position the image container (needed to position the left and right arrows) */
-        .container {
-            position: relative;
+        .header1 .container {
+            padding-top: 9em;
+            padding-bottom:5em;
+            width: 70%;
         }
     
         /* Hide the images by default */
@@ -107,7 +109,7 @@
         /* Six columns side by side */
         .column {
             float: left;
-            width: 16.66%;
+            width: 25%;
         }
     
         /* Add a transparency effect for thumnbail images */
@@ -118,6 +120,28 @@
         .active,
         .demo:hover {
             opacity: 1;
+        }
+        @media(max-width: 1226px){
+            .header1 .container {
+            position: relative;
+            width: 100%;
+        }
+        }
+        @media(max-width: 738px){
+            .header1 .container {
+            position: relative;
+            width: 100%;
+        }
+                .column {
+            float: left;
+            width: 33%;
+        }
+        }
+        @media(max-width: 738px){
+                .column {
+            float: left;
+            width: 50%;
+        }
         }
     </style>
 </head>
@@ -146,39 +170,45 @@
             </div>
         </div>
     </nav>
-    <div class="header">
+    <div class="header1">
+
         <div class="container">
             <h2 style="text-align:center">Slideshow Gallery</h2>
-            
-            <div class="container">
                 <div class="mySlides">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="/Assets/img/1.jpg" style="width:100%">
+                    <div class="numbertext">1 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="/Assets/img/1.jpg" style="width:100%">
+                    <div class="numbertext">2 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="/Assets/img/1.jpg" style="width:100%">
+                    <div class="numbertext">3 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="/Assets/img/1.jpg" style="width:100%">
+                    <div class="numbertext">4 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="/Assets/img/1.jpg" style="width:100%">
+                    <div class="numbertext">5 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
                 <div class="mySlides">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="/Assets/img/1.jpg" style="width:100%">
+                    <div class="numbertext">6 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">7 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
+                </div><div class="mySlides">
+                    <div class="numbertext">8 / 8</div>
+                    <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
                 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -187,33 +217,40 @@
                 <div class="caption-container">
                     <p id="caption"></p>
                 </div>
-            
+                <br>
                 <div class="row">
                     <div class="column">
-                        <img class="demo cursor" src="/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(2)"
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(2)"
                             alt="Cinque Terre">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(3)"
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(3)"
                             alt="Mountains and fjords">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(4)"
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(4)"
                             alt="Northern Lights">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(5)"
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(5)"
                             alt="Nature and sunrise">
                     </div>
                     <div class="column">
-                        <img class="demo cursor" src="/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(6)"
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(6)"
                             alt="Snowy Mountains">
                     </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(7)" alt="Snowy">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%" onclick="currentSlide(8)" alt="jj">
+                    </div>
                 </div>
-            </div>
+            
+
 
         </div>
     </div>
