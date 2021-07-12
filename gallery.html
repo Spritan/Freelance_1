@@ -41,8 +41,7 @@
         .header1 .container {
             padding-top: 9em;
             padding-bottom:5em;
-            width: 70%;
-        }
+            width: 100%        }
     
         /* Hide the images by default */
         .mySlides {
@@ -57,8 +56,10 @@
         /* Next & previous buttons */
         .prev,
         .next {
+            padding-top: 19em;
+            padding-bottom: 5em;
             cursor: pointer;
-            position: absolute;
+
             top: 40%;
             width: auto;
             padding: 16px;
@@ -211,11 +212,11 @@
                     <img src="https://spritan.github.io/Freelance_1/Assets/img/1.jpg" style="width:100%">
                 </div>
             
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                
             
                 <div class="caption-container">
-                    <p id="caption"></p>
+                    <a class="prev" onclick="plusSlides(-1)">❮</a><p id="caption"></p><a class="next" onclick="plusSlides(1)">❯</a>
                 </div>
                 <br>
                 <div class="row">
