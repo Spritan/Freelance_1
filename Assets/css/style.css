@@ -624,6 +624,10 @@ footer span a:hover{
     .review-section{
     margin-top: 180%;
     }
+    .column1 {
+    float: left;
+    width: 33%;
+  }
 }
 @media (max-width: 991px) {
     .review-section{
