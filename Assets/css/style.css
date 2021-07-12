@@ -603,6 +603,10 @@ footer span a:hover{
         max-height: 350px;
         max-width: 350px;
     }
+        .column1 {
+    float: left;
+    width: 33%;
+  }
 }
 @media (max-width: 1024px) {
     .about-content .left img{
