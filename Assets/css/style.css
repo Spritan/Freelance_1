@@ -541,7 +541,9 @@ footer span a:hover{
     margin-bottom: 35px;
 }
 
-
+.ft{
+     text-align: left;
+}
 /* Lightbox */
 
 .map-container-section {
@@ -734,6 +736,11 @@ footer span a:hover{
     max-width: 50%;
   }
   
+}
+@media(max-width:766px){
+    .ft{
+        text-align: center;
+    }
 }
 @media(max-width: 796px){
     .review-card{
