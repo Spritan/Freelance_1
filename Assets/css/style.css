@@ -195,7 +195,7 @@ html{
 
 /* home sec styling */
 .home{
-    background: url("/Assets/img/1.jpg") no-repeat center;
+    background: url("https://spritan.github.io/Freelance_1/Assets/img/1.jpg") no-repeat center;
     height: 100%;
     color: white;
     min-height: 100vh;
