@@ -789,6 +789,9 @@ footer span a:hover{
     max-height: 300px;
     max-width: 300px;
    }
+   .review-section .container .d-flex{
+       padding-left: 0em;
+   }
    
 
 }
@@ -802,6 +805,18 @@ footer span a:hover{
     flex: 100%;
     max-width: 100%;
   }
+      .navbart.sticky{
+    padding: 0 0;
+    }
+      .navbart2.sticky{
+    padding: 0 0;
+    }
+    .navbart .logo a span img{
+    max-width: 1em;
+}
+    .navbart2 .logo a span img{
+    max-width: 1em;
+}
     .review-section{
     margin-top: 570%;
     }
@@ -815,6 +830,8 @@ footer span a:hover{
     .column1 {
       width: 100%;
     }
+
+    
 }
 @media(max-width: 575px){
     .review-section{
