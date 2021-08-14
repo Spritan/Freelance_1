@@ -255,11 +255,19 @@ html{
 }
 .home .home-content .text-2{
         font-size: 70px;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(47, 124, 76);
+        /* -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(47, 124, 76); */
+        filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.685));
 }
+.home .home-content .text{
+
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.685));
+}
+
+
 .home .home-content .text-3{
         font-size: 35px;
+        
 
 }
 .home .home-content a{
