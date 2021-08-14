@@ -436,6 +436,10 @@ html{
     display: flex;
     align-items: center;
 }
+.review-image{
+    margin-left: 50px;
+    border-radius: 50%;
+}
 .review-image1{
     width: 100px;
     aspect-ratio: 1;
@@ -910,6 +914,10 @@ footer span a:hover{
     }
     .courses{
         width:100%;
+    }
+    .review-card{
+        flex-direction: column;
+
     }
     .review-section{
     margin-top: 675%;
