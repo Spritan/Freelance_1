@@ -750,6 +750,10 @@ footer span a:hover{
     .about-content .right{
         flex: 100%;
     }
+    .home_image{
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -866,6 +870,8 @@ footer span a:hover{
     max-height: 300px;
     max-width: 300px;
    }
+
+   
 
 }
 @media screen and (max-width: 600px) {
