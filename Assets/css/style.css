@@ -425,14 +425,27 @@ html{
     display: flex;
     align-items: center;
 }
-.review-image{
-    width: 66px;
+.review-image1{
+    width: 150px;
     aspect-ratio: 1;
-    background-color: #000;
+    background-image: url("https://spritan.github.io/Freelance_1/Assets/img/placements/aman.png");  
     margin-left: 50px;
     border-radius: 50%;
 }
-
+.review-image2{
+    width: 150px;
+    aspect-ratio: 1;
+    background-image: url("https://spritan.github.io/Freelance_1/Assets/img/placements/rohit.png");  
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.review-image3{
+    width: 150px;
+    aspect-ratio: 1;
+    background-image: url("https://spritan.github.io/Freelance_1/Assets/img/placements/akash.png");  
+    margin-left: 50px;
+    border-radius: 50%;
+}
 .review-text{
     margin-left: 60px;
     padding-top: 38px;
