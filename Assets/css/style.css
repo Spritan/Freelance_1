@@ -267,6 +267,7 @@ html{
 
 .home .home-content .text-3{
         font-size: 35px;
+        filter: drop-shadow(0 0 0.75rem rgba(252, 251, 251, 0.555));
         
 
 }
