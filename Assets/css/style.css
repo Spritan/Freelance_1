@@ -255,9 +255,12 @@ html{
 }
 .home .home-content .text-2{
         font-size: 70px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(47, 124, 76);
 }
 .home .home-content .text-3{
         font-size: 35px;
+
 }
 .home .home-content a{
         font-size: 23px;
